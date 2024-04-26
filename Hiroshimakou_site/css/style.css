@@ -335,7 +335,7 @@ main h3 {
 }
 #top_contents_1 p {
   font-size: 15pt;
-  margin-top: 30px;
+  margin-top: 10px;
   letter-spacing: normal;
   line-height: 2.0em;
 }
@@ -406,7 +406,7 @@ dd {
   color: rgb(107, 144, 219);
   -ms-flex-preferred-size: 20%;
   flex-basis: 20%;
-  margin-right: 2vw;
+  margin-right: 1vw;
   text-align: center;
 }
 .flow > li dl dt .icon {
@@ -426,7 +426,7 @@ dd {
 }
 #top_contents_2 {
   text-align: center;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 #top_contents_2 img {
   width: 100%;
@@ -467,8 +467,8 @@ dd {
 }
 #top_contents_4 ul {
   width: 100%;
-  padding: 50px 30vw 0;
-  text-align: left;
+  padding: 30px 30vw 0;
+  text-align: center;
   font-size: 14pt;
   line-height: 1.7em;
 }
@@ -482,7 +482,7 @@ dd {
   background-size: 3rem 3rem;
 }
 #top_contents_4 a {
-  margin: 60px auto;
+  margin: 40px auto;
 }
 
 #top_contents_5{
@@ -741,7 +741,7 @@ a.btn_blue:hover span.bl__text:after {
 /*table　スタイルここから*/
 .table_design01 {
   border-collapse: collapse;
-  width: 56%;
+  width: 46%;
   margin:auto; 
 }
 .table_design01 th, .table_design01 td {
@@ -783,7 +783,7 @@ footer .school img {
   height: 60px;
 }
 footer ul {
-  font-size: 9pt;
+  
   line-height: 20px;
   margin: 10px 0;
 
@@ -1035,8 +1035,8 @@ font-weight:200;
   a.btn_blue {
     display: block;
     max-width: 350px;
-    margin-top: 30px;
-    margin-bottom: 60px;
+/*    margin-top: 30px;*/
+/*    margin-bottom: 60px;*/
     padding: 1.5rem 3.0rem;
     background-color: #ffe000;
     border-radius: 8px;
@@ -1276,15 +1276,30 @@ font-weight:200;
     }
     #top_contents_4 {
       padding-top: 30px;
+		padding-bottom: 0;
     }
+	  
+	  #top_contents_4 a{
+		  margin-top:10px;
+	  }
+		  
+	  }
     #top_contents_4 ul {
-      width: 95%;
-      padding: 20px 10px 0;
-      text-align: left;
+      width: 80%;
+      padding: 20px;
+      
       font-size: 14px;
-      line-height: 1.7em;
+      
       margin: 0 auto;
     }
+	  
+	  
+	  #top_contents_5{
+		  padding-top:40px;
+		  padding-bottom: 20px;
+	  }
+	  
+	  
     .shuushoku_shien {
       font-size: 19px;
       font-weight: bold;
@@ -1526,7 +1541,7 @@ font-weight:200;
         
 .map iframe {
   padding-top: 30px;
-  width: 100%;
+  width: 80%;
   aspect-ratio: 16/9;
 }
         
@@ -1535,7 +1550,7 @@ font-weight:200;
       /*table　スタイルここから*/
       .table_design01 {
         border-collapse: collapse;
-        width: 85%;
+        width: 80%;
       }
       .table_design01 th, .table_design01 td {
         border: 2px solid #F1F9F9;
@@ -1561,17 +1576,20 @@ font-weight:200;
     #footer_mail{
     display: inline;
     font-size:12pt;
-    padding-top:10px;
-        margin-right: 5px;
+    padding-top:4px;
+        margin-right: 10px;
 }
 
 
 #footer_instagram{
     display: inline;
     font-size:12pt;
-    padding-top:10px;
+    padding-top:4px;
 }
-     
+		footer a{
+			font-size:10pt;
+			
+		}
         
       footer {
         padding-top: 60px;
