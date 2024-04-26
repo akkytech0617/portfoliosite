@@ -206,7 +206,7 @@ transition:0.2s;
 }
 .about_body {
   background-image: url(
-"../image/Main_Visual.background_gray.jpg");
+"../image/Main_Visual.background_gray.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -357,7 +357,7 @@ transition:0.2s;
 /*モバイル用ABOUTページ*/
     
   .about_body{
-  background-image: url( "../image/Main_Visual_gray_about.jpg");
+  background-image: url( "../image/Main_Visual_gray_about.webp");
   background-repeat: no-repeat;
   background-size: cover;
         
