@@ -5,8 +5,7 @@
 body {
   color: #333333;
   font-family: "Roboto Mono","sans-serif";
-  background-color:#EFEFEF;
-  
+  background-color:#f2f2f2;
 }
 
 img.mfp-img {
@@ -44,9 +43,9 @@ img {
 .nav_page {
   text-align: left;
   font-size: 44pt;
-  font-weight: 500;
-  margin-top: 73px;
-  margin-right: 63px;
+  font-weight: 800;
+  margin-top: 28px;
+  margin-right: 42px;
   position: relative;
   z-index: 7;
 }
@@ -70,10 +69,10 @@ nav li {
 
 /* ページタイトル文字部分の設定 */
 .page_title {
-  font-size: clamp(40pt, 7vw, 69pt);
+  font-size: clamp(35pt, 7vw, 69pt);
   font-weight: 800;
   margin-top: 20px;
-  margin-left: 85px;
+  margin-left: 42px;
   position: absolute;
   left: 0px;
   top: 0px;
@@ -91,7 +90,7 @@ nav li {
   margin-left: 85px;
   position: absolute;
   left: 43px;
-  top: 260px;
+  top: 200px;
   z-index: 3;
   width: 23%;
   background-color: rgba(239,239,239,0.7);
@@ -113,11 +112,11 @@ nav li {
 /* topページのメインビジュアル画像の設定*/
 .main_visual {
   text-align: center;
-  margin-top: 81px;
+  margin-top: 40px;
 }
+    
 .main_visual img {
-  width: 85%;
-  height: 85%;
+  width: 90%;
   z-index: -1;
 }
 
@@ -216,24 +215,26 @@ transition:0.2s;
 /* フッターのスタイル設定*/
 
     footer {
-        text-align: right;
-        margin: 0px 63px;
+        text-align: center;
+/*        margin: 0px 63px;*/
     }
     
     footer p{
+/*
         position: relative;
         right: 0.7%;
+*/
         font-size:8pt;
-        padding-top:10px;
+        padding-top:5px;
         
     }
 	
 	.top_button{
-		margin-top:20px;
+		margin-top:10px;
 	}
     
     .top_link{
-        font-size: 20pt;
+        font-size: 15pt;
         font-weight: 900;
         position: relative;
         right: 1.2%;
